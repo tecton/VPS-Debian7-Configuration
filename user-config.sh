@@ -10,4 +10,4 @@ wget -q https://raw.githubusercontent.com/tecton/VPS-Debian7-Configuration/maste
 sleep 1
 chown -hR tecton /home/tecton/.ssh
 /etc/init.d/ssh restart
-passwd tecton
+echo "tecton:tecton" | chpasswd
