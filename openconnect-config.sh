@@ -44,4 +44,3 @@ iptables-restore < /etc/iptables.firewall.rules;
 
 wget -q https://raw.githubusercontent.com/tecton/VPS-Debian7-Configuration/master/ocserv -O /etc/init.d/ocserv && chmod 755 /etc/init.d/ocserv;
 update-rc.d ocserv defaults && /etc/init.d/ocserv start;
-reboot
